@@ -16,13 +16,13 @@ function Login() {
     };
     // axios call
     axios
-      .post('http://localhost:4000/user/login', data)
+      .post('http://localhost:4000/hospuser/hosplogin', data)
       .then((res) => {
         console.log(res);
         localStorage.clear();
         localStorage.setItem('token', JSON.stringify(res.data.token));
         localStorage.setItem('username', res.data.username);
-        navigate('/LandingPage');
+        navigate('/Hospital/landingPageHos');
       })
       .catch((err) => {
         console.log(err);
@@ -34,7 +34,7 @@ function Login() {
         onSubmit={(e) => handleSubmit(e)}
         className="flex flex-col  w-[50%]  space-y-4  "
       >
-        <h1 className="text-xl "> Login</h1>
+        <h1 className="text-xl "> Hospital User Login</h1>
 
         <div className="flex flex-col ">
           <label className="text-xl ">Email</label>
