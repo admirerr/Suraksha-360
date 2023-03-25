@@ -69,6 +69,10 @@ import HosT from './pages/data/host';
 import TrafT from './pages/data/traft';
 import TrafPR from './pages/data/trafPR';
 import TrafRR from './pages/data/trafRR';
+import TransPR from './pages/data/transPR';
+import TransUA from './pages/data/transUA';
+import HosPR from './pages/data/hosPR';
+import HosUA from './pages/data/hosUA';
 
 
 function App() {
@@ -117,6 +121,10 @@ function App() {
           <Route path="/data/traft" element={<TrafT />} />
           <Route path="/data/trafPR" element={<TrafPR />} />
           <Route path="/data/trafRR" element={<TrafRR />} />
+          <Route path="/data/transPR" element={<TransPR />} />
+          <Route path="/data/transUA" element={<TransUA />} />
+          <Route path="/data/hosPR" element={<HosPR />} />
+          <Route path="/data/hosUA" element={<HosUA />} />
 
         </Route>
       </Routes>

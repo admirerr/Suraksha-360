@@ -32,33 +32,24 @@ function LandingPageHos() {
       {/* Sidebar */}
       <div className="bg-gray-200 h-screen w-64 flex flex-col">
         <div className="py-4 px-6">
-          <h2 className="text-lg font-semibold mb-4">Hospital's Portal</h2>
+          <h2 className="text-lg font-semibold mb-4">Hospital Portal</h2>
           <ul>
             <li className="mb-2">
-              <a href="#" className="text-gray-800 hover:text-gray-600 font-semibold">
-                Option 1
+              <a href="/hospital/landingPageHos" className="text-gray-800 hover:text-gray-600 font-semibold">
+                Home
               </a>
             </li>
             <li className="mb-2">
-              <a href="#" className="text-gray-800 hover:text-gray-600 font-semibold">
-                Option 2
+              <a href="/data/hosPR" className="text-gray-800 hover:text-gray-600 font-semibold">
+                Pending Request
               </a>
             </li>
             <li className="mb-2">
-              <a href="#" className="text-gray-800 hover:text-gray-600 font-semibold">
-                Option 3
+              <a href="/data/hosUA" className="text-gray-800 hover:text-gray-600 font-semibold">
+                Update Availability
               </a>
             </li>
-            <li className="mb-2">
-              <a href="#" className="text-gray-800 hover:text-gray-600 font-semibold">
-                Option 4
-              </a>
-            </li>
-            <li className="mb-2">
-              <a href="#" className="text-gray-800 hover:text-gray-600 font-semibold">
-                Option 5
-              </a>
-            </li>
+          
           </ul>
           <button className="bg-red-500 text-white font-semibold py-2 px-4 mt-4 rounded hover:bg-red-600" onClick={handleLogout}>
             Logout
