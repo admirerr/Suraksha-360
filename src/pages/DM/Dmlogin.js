@@ -16,7 +16,7 @@ function Login() {
     };
     // axios call
     axios
-      .post('http://localhost:4000/user/login', data)
+      .post('http://localhost:4000/dmuser/dmlogin', data)
       .then((res) => {
         console.log(res);
         localStorage.clear();
@@ -34,7 +34,7 @@ function Login() {
         onSubmit={(e) => handleSubmit(e)}
         className="flex flex-col  w-[50%]  space-y-4  "
       >
-        <h1 className="text-xl "> Login</h1>
+        <h1 className="text-xl "> DM Login</h1>
 
         <div className="flex flex-col ">
           <label className="text-xl ">Email</label>

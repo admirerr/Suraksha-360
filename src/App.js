@@ -1,12 +1,14 @@
-import { Route, Routes } from "react-router-dom";
-import "./App.css";
-import Home from "./pages/Home";
-import Login from "./pages/Login";
-import Navbar from "./pages/Navbar";
-import Register from "./pages/Register";
-import Success from "./pages/Success";
-import LandingPage from "./pages/landingPage";
-import PrivateRoute from "./PrivateRoute";
+import { Route, Routes } from 'react-router-dom';
+import './App.css';
+import Home from './pages/Home';
+import Login from './pages/Login';
+import Dmlogin from './pages/DM/Dmlogin';
+import Navbar from './pages/Navbar';
+import Register from './pages/Register';
+import Success from './pages/Success';
+import LandingPage from './pages/landingPage';
+import PrivateRoute from './PrivateRoute';
+import DMregister from './pages/DM/DMregister';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Routes>
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/DM/dmlogin" element={<Dmlogin />} />
+        <Route path="/DM/dmregister" element={<DMregister />} />
         <Route path="/LandingPage" element={<LandingPage />} />
 
         <Route path="/" element={<PrivateRoute />}>
