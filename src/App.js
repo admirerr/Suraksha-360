@@ -63,6 +63,7 @@ import LandingPageTraf from './pages/Traffic/landingPageTraf';
 import Transportlogin from './pages/Transport/Transportlogin';
 import Transportregister from './pages/Transport/Transportregister';
 import LandingPageTrans from './pages/Transport/landingPageTrans';
+import DMT from './pages/data/dmt';
 
 
 function App() {
@@ -103,6 +104,10 @@ function App() {
         <Route path="/" element={<PrivateRoute />}>
           <Route path="/" element={<Home />} />
           <Route path="/success" element={<Success />} />
+
+
+          <Route path="/data/dmt" element={<DMT />} />
+
         </Route>
       </Routes>
     </div>
