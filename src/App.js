@@ -9,7 +9,6 @@ import Success from './pages/Success';
 import LandingPage from './pages/landingPage';
 import PrivateRoute from './PrivateRoute';
 import DMregister from './pages/DM/DMregister';
-import LandingPageDM from './pages/DM/landingPageDM';
 
 function App() {
   return (
@@ -17,12 +16,16 @@ function App() {
       <Navbar />
 
       <Routes>
+        {/* user */}
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
+
+        <Route path="/LandingPage" element={<LandingPage />} />
+
+        {/* DM */}
         <Route path="/DM/dmlogin" element={<Dmlogin />} />
         <Route path="/DM/dmregister" element={<DMregister />} />
         <Route path="/LandingPage" element={<LandingPage />} />
-        <Route path="/DM/landingPageDM" element={<LandingPageDM />} />
 
         <Route path="/" element={<PrivateRoute />}>
           <Route path="/" element={<Home />} />
