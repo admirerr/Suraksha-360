@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
-function LandingPage() {
+function TrafT() {
   const [username, setName] = useState("");
   const navigate = useNavigate();
 
@@ -70,14 +70,51 @@ function LandingPage() {
       {/* Main content */}
       <div className="w-full bg-gray-100">
         {/* Main content area */}
-        <div className="w-full h-screen flex justify-center items-center">
-          <h1 className="text-4xl font-bold text-gray-800">
-            Welcome {username ? username : "User"} to Landing Page
-          </h1>
-        </div>
+        {/* Main content area */}
+<div className="w-full h-screen flex justify-center items-center">
+  <table className="table-auto">
+    <thead>
+      <tr>
+        <th className="px-4 py-2">Traffic Location</th>
+        <th className="px-4 py-2">Availability</th>
+        <th className="px-4 py-2">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td className="border px-4 py-2">John Doe</td>
+        <td className="border px-4 py-2">28</td>
+        <td className="border px-4 py-2">
+                  <button className="hover:text-white hover:bg-blue-500 font-bold py-2 px-4 rounded">
+                    Click me
+                  </button>
+                </td>
+      </tr>
+      <tr>
+        <td className="border px-4 py-2">Jane Smith</td>
+        <td className="border px-4 py-2">35</td>
+        <td className="border px-4 py-2">
+                  <button className="hover:text-white hover:bg-blue-500 font-bold py-2 px-4 rounded">
+                    Click me
+                  </button>
+                </td>
+      </tr>
+      <tr>
+        <td className="border px-4 py-2">Bob Johnson</td>
+        <td className="border px-4 py-2">42</td>
+        <td className="border px-4 py-2">
+                  <button className="hover:text-white hover:bg-blue-500 font-bold py-2 px-4 rounded">
+                    Click me
+                  </button>
+                </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
       </div>
     </div>
   );
 }
 
-export default LandingPage;
+export default TrafT;

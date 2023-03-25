@@ -32,31 +32,31 @@ function DMT() {
       {/* Sidebar */}
       <div className="bg-gray-200 h-screen w-64 flex flex-col">
         <div className="py-4 px-6">
-          <h2 className="text-lg font-semibold mb-4">Menu</h2>
+          <h2 className="text-lg font-semibold mb-4">Admin's Portal</h2>
           <ul>
+          <li className="mb-2">
+              <a href="/landingPage" className="text-gray-800 hover:text-gray-600 font-semibold">
+                Home
+              </a>
+            </li>
             <li className="mb-2">
-              <a href="#" className="text-gray-800 hover:text-gray-600 font-semibold">
+              <a href="/data/host" className="text-gray-800 hover:text-gray-600 font-semibold">
                 Hospitals
               </a>
             </li>
             <li className="mb-2">
-              <a href="#" className="text-gray-800 hover:text-gray-600 font-semibold">
+              <a href="/data/trant" className="text-gray-800 hover:text-gray-600 font-semibold">
                 Transportation
               </a>
             </li>
             <li className="mb-2">
-              <a href="#" className="text-gray-800 hover:text-gray-600 font-semibold">
+              <a href="/data/dmt" className="text-gray-800 hover:text-gray-600 font-semibold">
                 District Magistrates
               </a>
             </li>
             <li className="mb-2">
-              <a href="#" className="text-gray-800 hover:text-gray-600 font-semibold">
+              <a href="/data/traft" className="text-gray-800 hover:text-gray-600 font-semibold">
                 Traffic Officials
-              </a>
-            </li>
-            <li className="mb-2">
-              <a href="#" className="text-gray-800 hover:text-gray-600 font-semibold">
-                Option 5
               </a>
             </li>
           </ul>
@@ -74,26 +74,38 @@ function DMT() {
   <table className="table-auto">
     <thead>
       <tr>
-        <th className="px-4 py-2">Name</th>
-        <th className="px-4 py-2">Age</th>
-        <th className="px-4 py-2">City</th>
+        <th className="px-4 py-2">DM's Name</th>
+        <th className="px-4 py-2">Number of accomodations</th>
+        <th className="px-4 py-2">Action</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td className="border px-4 py-2">John Doe</td>
         <td className="border px-4 py-2">28</td>
-        <td className="border px-4 py-2">New York</td>
+        <td className="border px-4 py-2">
+                  <button className="hover:text-white hover:bg-blue-500 font-bold py-2 px-4 rounded">
+                    Click me
+                  </button>
+                </td>
       </tr>
       <tr>
         <td className="border px-4 py-2">Jane Smith</td>
         <td className="border px-4 py-2">35</td>
-        <td className="border px-4 py-2">Los Angeles</td>
+        <td className="border px-4 py-2">
+                  <button className="hover:text-white hover:bg-blue-500 font-bold py-2 px-4 rounded">
+                    Click me
+                  </button>
+                </td>
       </tr>
       <tr>
         <td className="border px-4 py-2">Bob Johnson</td>
         <td className="border px-4 py-2">42</td>
-        <td className="border px-4 py-2">Chicago</td>
+        <td className="border px-4 py-2">
+                  <button className="hover:text-white hover:bg-blue-500 font-bold py-2 px-4 rounded">
+                    Click me
+                  </button>
+                </td>
       </tr>
     </tbody>
   </table>

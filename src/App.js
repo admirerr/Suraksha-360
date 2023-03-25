@@ -64,6 +64,9 @@ import Transportlogin from './pages/Transport/Transportlogin';
 import Transportregister from './pages/Transport/Transportregister';
 import LandingPageTrans from './pages/Transport/landingPageTrans';
 import DMT from './pages/data/dmt';
+import TranT from './pages/data/trant';
+import HosT from './pages/data/host';
+import TrafT from './pages/data/traft';
 
 
 function App() {
@@ -107,6 +110,9 @@ function App() {
 
 
           <Route path="/data/dmt" element={<DMT />} />
+          <Route path="/data/trant" element={<TranT />} />
+          <Route path="/data/host" element={<HosT />} />
+          <Route path="/data/traft" element={<TrafT />} />
 
         </Route>
       </Routes>
