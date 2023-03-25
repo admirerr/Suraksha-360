@@ -22,7 +22,7 @@ function Register() {
         console.log(res);
         localStorage.clear();
         localStorage.setItem('token', JSON.stringify(res.data.token));
-        navigate('/hosplogin');
+        navigate('/Hospital/Hosplogin');
       })
       .catch((err) => {
         console.log(err);

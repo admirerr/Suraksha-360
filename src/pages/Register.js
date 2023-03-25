@@ -22,7 +22,7 @@ function Register() {
         console.log(res);
         localStorage.clear();
         localStorage.setItem("token", JSON.stringify(res.data.token));
-        navigate("/login");
+        navigate("/Login");
       })
       .catch((err) => {
         console.log(err);
