@@ -119,7 +119,7 @@ router.post(
       }
 
       const payload = {
-        hospuser: {
+        trafficuser: {
           id: trafficuser.id,
         },
       };
