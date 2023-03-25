@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
-function LandingPageHos() {
+function HosPR() {
   const [username, setName] = useState("");
   const navigate = useNavigate();
 
@@ -49,7 +49,7 @@ function LandingPageHos() {
                 Update Availability
               </a>
             </li>
-          
+            
           </ul>
           <button className="bg-red-500 text-white font-semibold py-2 px-4 mt-4 rounded hover:bg-red-600" onClick={handleLogout}>
             Logout
@@ -61,14 +61,23 @@ function LandingPageHos() {
       <div className="w-full bg-gray-100">
     
         {/* Main content area */}
+        
         <div className="w-full h-screen flex justify-center items-center">
-          <h1 className="text-4xl font-bold text-gray-800">
-            Welcome {username ? username : "User"} to Landing Page
-          </h1>
-        </div>
+    <div className="text-center">
+    
+      <h1 className="text-4xl  text-gray-800 mb-5">A crew of 20,000 people will pass through your area. Is everything good?</h1>
+      <button className="bg-green-500 text-white font-semibold py-2 px-4 rounded hover:bg-green-600 mr-4">
+        Yes
+      </button>
+      <button className="bg-red-500 text-white font-semibold py-2 px-4 rounded hover:bg-red-600">
+        No
+      </button>
+    </div>
+  </div>
+
       </div>
     </div>
   );
 }
 
-export default LandingPageHos;
+export default HosPR;
