@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
-function LandingPageTraf() {
+function TrafRR() {
   const [username, setName] = useState("");
   const navigate = useNavigate();
 
@@ -61,14 +61,47 @@ function LandingPageTraf() {
       <div className="w-full bg-gray-100">
     
         {/* Main content area */}
+        
         <div className="w-full h-screen flex justify-center items-center">
-          <h1 className="text-4xl font-bold text-gray-800">
-            Welcome {username ? username : "User"} to Landing Page
-          </h1>
-        </div>
+  <div className="w-1/2 bg-white rounded-lg p-8">
+    <h2 className="text-2xl font-bold mb-4">Traffic Request Form</h2>
+    <form>
+      <div className="mb-4">
+        <label className="block text-gray-700 font-bold mb-2" htmlFor="location">
+          Location
+        </label>
+        <input
+          className="w-full border border-gray-400 p-2 rounded-lg"
+          id="location"
+          type="text"
+          placeholder="Enter your location"
+          required
+        />
+      </div>
+      <div className="mb-4">
+        <label className="block text-gray-700 font-bold mb-2" htmlFor="people">
+          Number of People
+        </label>
+        <input
+          className="w-full border border-gray-400 p-2 rounded-lg"
+          id="people"
+          type="number"
+          placeholder="Enter the number of people"
+          min="1"
+          required
+        />
+      </div>
+      <button className="bg-blue-500 text-white font-semibold py-2 px-4 rounded hover:bg-blue-600">
+        Submit
+      </button>
+    </form>
+  </div>
+</div>
+
+
       </div>
     </div>
   );
 }
 
-export default LandingPageTraf;
+export default TrafRR;

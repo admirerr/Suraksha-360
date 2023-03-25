@@ -67,6 +67,8 @@ import DMT from './pages/data/dmt';
 import TranT from './pages/data/trant';
 import HosT from './pages/data/host';
 import TrafT from './pages/data/traft';
+import TrafPR from './pages/data/trafPR';
+import TrafRR from './pages/data/trafRR';
 
 
 function App() {
@@ -113,6 +115,8 @@ function App() {
           <Route path="/data/trant" element={<TranT />} />
           <Route path="/data/host" element={<HosT />} />
           <Route path="/data/traft" element={<TrafT />} />
+          <Route path="/data/trafPR" element={<TrafPR />} />
+          <Route path="/data/trafRR" element={<TrafRR />} />
 
         </Route>
       </Routes>
