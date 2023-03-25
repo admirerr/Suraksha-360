@@ -9,6 +9,12 @@ import Success from './pages/Success';
 import LandingPage from './pages/landingPage';
 import PrivateRoute from './PrivateRoute';
 import DMregister from './pages/DM/DMregister';
+import Hosplogin from './pages/Hospital/Hosplogin';
+import Hospregister from './pages/Hospital/Hospregister';
+import Trafficlogin from './pages/Traffic/Trafficlogin';
+import Trafficregister from './pages/Traffic/Trafficregister';
+import Transportlogin from './pages/Transport/Transportlogin';
+import Transportregister from './pages/Transport/Transportregister';
 
 function App() {
   return (
@@ -16,11 +22,30 @@ function App() {
       <Navbar />
 
       <Routes>
+        {/* user */}
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
+
+        <Route path="/LandingPage" element={<LandingPage />} />
+
+        {/* DM */}
         <Route path="/DM/dmlogin" element={<Dmlogin />} />
         <Route path="/DM/dmregister" element={<DMregister />} />
-        <Route path="/LandingPage" element={<LandingPage />} />
+
+        {/* Hospital */}
+        <Route path="/Hospital/hosplogin" element={<Hosplogin />} />
+        <Route path="/Hospital/hospregister" element={<Hospregister />} />
+
+        {/* Traffic */}
+        <Route path="/Traffic/trafficlogin" element={<Trafficlogin />} />
+        <Route path="/Traffic/trafficregister" element={<Trafficregister />} />
+
+        {/* transport */}
+        <Route path="/Transport/transportlogin" element={<Transportlogin />} />
+        <Route
+          path="/Transport/transportregister"
+          element={<Transportregister />}
+        />
 
         <Route path="/" element={<PrivateRoute />}>
           <Route path="/" element={<Home />} />
