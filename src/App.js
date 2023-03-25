@@ -73,6 +73,8 @@ import TransPR from './pages/data/transPR';
 import TransUA from './pages/data/transUA';
 import HosPR from './pages/data/hosPR';
 import HosUA from './pages/data/hosUA';
+import DmPR from './pages/data/DmPR';
+import DmUR from './pages/data/DmUR';
 
 
 function App() {
@@ -125,6 +127,8 @@ function App() {
           <Route path="/data/transUA" element={<TransUA />} />
           <Route path="/data/hosPR" element={<HosPR />} />
           <Route path="/data/hosUA" element={<HosUA />} />
+          <Route path="/data/DmPR" element={<DmPR />} />
+          <Route path="/data/DmUR" element={<DmUR />} />
 
         </Route>
       </Routes>
