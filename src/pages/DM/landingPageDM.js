@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
-function LandingPage() {
+function LandingPageDM() {
   const [username, setName] = useState("");
   const navigate = useNavigate();
 
@@ -36,22 +36,22 @@ function LandingPage() {
           <ul>
             <li className="mb-2">
               <a href="#" className="text-gray-800 hover:text-gray-600 font-semibold">
-                Hospitals
+                Option 1
               </a>
             </li>
             <li className="mb-2">
               <a href="#" className="text-gray-800 hover:text-gray-600 font-semibold">
-                Transportation
+                Option 2
               </a>
             </li>
             <li className="mb-2">
               <a href="#" className="text-gray-800 hover:text-gray-600 font-semibold">
-                District Magistrates
+                Option 3
               </a>
             </li>
             <li className="mb-2">
               <a href="#" className="text-gray-800 hover:text-gray-600 font-semibold">
-                Traffic Officials
+                Option 4
               </a>
             </li>
             <li className="mb-2">
@@ -68,6 +68,7 @@ function LandingPage() {
 
       {/* Main content */}
       <div className="w-full bg-gray-100">
+    
         {/* Main content area */}
         <div className="w-full h-screen flex justify-center items-center">
           <h1 className="text-4xl font-bold text-gray-800">
@@ -79,4 +80,4 @@ function LandingPage() {
   );
 }
 
-export default LandingPage;
+export default LandingPageDM;
