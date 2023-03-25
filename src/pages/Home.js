@@ -2,7 +2,9 @@ import React from 'react'
 
 function Home() {
   return (
-    <div>Home</div>
+    <div>Success ,
+      <h1 className='text-blue  font-xl ' >Welcome to Suraksha-360. Select your login/register type from the menu at top.</h1>
+    </div>
   )
 }
 

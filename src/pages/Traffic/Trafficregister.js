@@ -17,7 +17,7 @@ function Register() {
       password: password,
     };
     axios
-      .post('http://localhost:4000/user/trafficregister', data)
+      .post('http://localhost:4000/trafficuser/trafficregister', data)
       .then((res) => {
         console.log(res);
         localStorage.clear();

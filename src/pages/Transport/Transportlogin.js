@@ -22,7 +22,7 @@ function Login() {
         localStorage.clear();
         localStorage.setItem('token', JSON.stringify(res.data.token));
         localStorage.setItem('username', res.data.username);
-        navigate('/LandingPage');
+        navigate('/Transport/landingPageTrans');
       })
       .catch((err) => {
         console.log(err);

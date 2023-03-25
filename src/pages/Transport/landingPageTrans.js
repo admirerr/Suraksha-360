@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
-function LandingPageDM() {
+function LandingPageTrans() {
   const [username, setName] = useState("");
   const navigate = useNavigate();
 
@@ -32,7 +32,7 @@ function LandingPageDM() {
       {/* Sidebar */}
       <div className="bg-gray-200 h-screen w-64 flex flex-col">
         <div className="py-4 px-6">
-          <h2 className="text-lg font-semibold mb-4">DM's Portal</h2>
+          <h2 className="text-lg font-semibold mb-4">Transport's Portal</h2>
           <ul>
             <li className="mb-2">
               <a href="#" className="text-gray-800 hover:text-gray-600 font-semibold">
@@ -80,4 +80,4 @@ function LandingPageDM() {
   );
 }
 
-export default LandingPageDM;
+export default LandingPageTrans;
