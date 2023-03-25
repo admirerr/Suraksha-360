@@ -45,7 +45,7 @@ function LandingPage() {
               </a>
             </li>
             <li className="mb-2">
-              <a href="/tables/dmt" className="text-gray-800 hover:text-gray-600 font-semibold">
+              <a href="/data/dmt" className="text-gray-800 hover:text-gray-600 font-semibold">
                 District Magistrates
               </a>
             </li>
