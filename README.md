@@ -17,11 +17,14 @@
 ![reactjs](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)&nbsp;
 ![react-router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)&nbsp;
 
+
+
 *Backend:*
 
 ![nodejs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)&nbsp;
 ![expressjs](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)&nbsp;
 ![mongodb](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)&nbsp;
+
 
 
 ## 🚀 Features
@@ -34,8 +37,10 @@
 - Hospitals do get the information about the nearest mishappening
 - Each department can update their availability on the portal
 - Destination location DM can update the number of people arrived
+
  
 Team Name: Hustlers_3.0
+
 
 ## Contributors: 
 
@@ -43,6 +48,7 @@ Team Name: Hustlers_3.0
 * [Prakhar Kumar Patel](https://github.com/Prakharpatel-24) 
 * [Priyanshu Gupta](https://github.com/priygit96) 
 * [Vikash Yadav](https://github.com/rafale-2001) 
+
 
 ### Made at:
 <a href="https://hack36.com"> <img src="https://i.postimg.cc/RFFWF4vg/built-at-hack.jpg" height=24px> </a>
