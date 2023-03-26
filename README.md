@@ -1,6 +1,6 @@
 # Suraksha-360
 
-<h1 align="center">Playtopia</h1>
+<h1 align="center">Suraksha-360</h1>
 <p align="center">
 </p>
 
