@@ -26,15 +26,15 @@
 
 
 ## 🚀 Features
-- Login and sign up page. 
-- Offers text chatting, audio and video calls.
-- Users can choose whether to enable or disable their mic or camera
-- Users can send friend requests to each other.
-- Users can join private rooms and hangout together
-- Users can join these rooms with either only audio or both audio and video enabled.
-- Users can also share their screens in private rooms which enables two-way multistreaming. This feature helps gamers to livestream their games like pubG, Gta, etc.
-- User can play games like 2048 and memory game
-- In-built chatbot, which offers text to speech and vice versa, suggest spotify playlists, look up gaming facts and rules, crack jokes.
+- Dedicated Login/Signup portal for respective department
+- Admin portal has the ability to contact each of the other portals
+- Admin can initiate the shift of the crowd on a single click
+- Transportation services can be calculated and arranged accordingly as per the requirement made by the admin
+- Traffic officials can inform Hospitals and Admin in case of any casuality.
+- In case of any mishappening, beds in the nearest hospital are fetched and in case of unavailability next nearest hospitals detail are fetched
+- Hospitals do get the information about the nearest mishappening
+- Each department can update their availability on the portal
+- Destination location DM can update the number of people arrived
  
 Team Name: Hustlers_3.0
 
