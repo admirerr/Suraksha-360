@@ -1,4 +1,3 @@
-# Suraksha-360
 
 <h1 align="center">Suraksha-360</h1>
 <p align="center">
