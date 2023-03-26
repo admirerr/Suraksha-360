@@ -7,7 +7,7 @@
 <a href="https://hack36.com"> <img src="https://i.postimg.cc/RFFWF4vg/built-at-hack.jpg" height=24px> </a>
 
 ## Demo Video Link:
-  <a href="https://drive.google.com/file/d/1g9Unu_R1msDFX-GMsOlXmxrsNiBU_PFi/view?usp=sharing">YouTube video link</a>
+  <a href="https://drive.google.com/file/d/1g9Unu_R1msDFX-GMsOlXmxrsNiBU_PFi/view?usp=sharing">Drive video link</a>
   
 ## Presentation Link:
   <a href="https://drive.google.com/file/d/1Vmd-FT81kP3qtk3Z_dHOaoc4FYMRlusG/view?usp=sharing"> PPT link </a>
